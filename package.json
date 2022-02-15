@@ -6,7 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "start": "node index.js",
-    "start:dev" : "nodemon index.js",
+    "start:dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/heorhii-aksiuk/goit-node-hw-01#readme",
   "devDependencies": {
     "nodemon": "2.0.15"
+  },
+  "dependencies": {
+    "commander": "9.0.0"
   }
 }
